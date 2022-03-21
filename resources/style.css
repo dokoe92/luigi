@@ -124,8 +124,14 @@ nav a {
 }
 
 @media only screen and (max-width: 768px){
-    .media-images{
+    .menu-images{
         flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        max-width: 100%;;
+    }
+    .menu-images img {
+        max-width: 60%;
     }
 
 }
@@ -133,8 +139,12 @@ nav a {
 /*--------location-----*/
 
 #location p {
-    text-align: center;
+    text-align: ;
     padding-bottom: 1rem;
+}
+
+#location h2{
+    text-align: center;
 }
 
 .location-container {
